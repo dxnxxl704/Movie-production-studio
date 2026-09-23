@@ -1,0 +1,35 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.capa{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.capa-id{
+    text-align: start;
+    font-size: 10px;
+}
+.capa-main{
+    display: flex;
+    flex-direction: row;
+}
+.capa-main h1{
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+.capa-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
